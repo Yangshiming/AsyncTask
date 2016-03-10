@@ -101,7 +101,7 @@ public class NewsAdapter extends BaseAdapter implements AbsListView.OnScrollList
         mStart = firstVisibleItem;
         mEnd = firstVisibleItem+visibleItemCount;
 
-        //第一次显示时调用，visibleItemCount在开始时为0，这样不能就在图片
+        //第一次显示时调用，visibleItemCount在开始时为0，这样不能加载图片
         if (mFirstIn == true && visibleItemCount > 0){
             imageLoader.loadImage(mStart,mEnd);
         }
