@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * Created by Young on 2016/3/1.
+ * dfafsf
  */
 public class NewsAdapter extends BaseAdapter {
 
